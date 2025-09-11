@@ -1,0 +1,3 @@
+- MMPose — Apache-2.0 — https://github.com/open-mmlab/mmpose
+- Avalanche — MIT — https://github.com/ContinualAI/avalanche
+- COCO — CC BY 4.0 — https://cocodataset.org

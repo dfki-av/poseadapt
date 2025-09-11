@@ -1,0 +1,18 @@
+PoseAdapt
+Copyright (c) 2025 DFKI GmbH
+
+This project is licensed under the PolyForm Noncommercial License 1.0.0
+(see LICENSE or LICENSES/PolyForm-NC.txt).
+
+Third-Party Components:
+- Portions of code are derived from MMPose (Apache License 2.0).
+  Copyright (c) OpenMMLab contributors.
+  See LICENSES/Apache-2.0.txt.
+- Portions of code are adapted from Avalanche (MIT License).
+  Copyright (c) ContinualAI contributors.
+  See LICENSES/MIT.txt.
+
+Datasets:
+- Benchmark subsets are derived from the COCO dataset (Lin et al., ECCV 2014),
+  licensed under CC BY 4.0. See benchmarks/data/LICENSE and
+  benchmarks/data/ATTRIBUTION.md for details.
