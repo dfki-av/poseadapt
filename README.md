@@ -3,13 +3,15 @@
 <div align="center">
 
 [![Home](https://img.shields.io/badge/Project-Home-311B92.svg?labelColor=311B92&style=plastic)](https://saifkhichi96.github.io/research/poseadapt/)
-[![Conference](https://img.shields.io/badge/WACV-2026-003366.svg?labelColor=white&style=plastic)](#)
+[![Conference](https://img.shields.io/badge/WACV-2026-003366.svg?labelColor=white&style=plastic)](https://wacv2026.thecvf.com/)
 [![Dataset](https://img.shields.io/badge/Dataset-PoseAdaptBench-black.svg?labelColor=white&style=plastic)](https://drive.google.com/drive/folders/1aT7LpZqMEzXs_Knpz6kbgjCwQXeVdTDb?usp=sharing)
 [![arXiv](https://img.shields.io/badge/arXiv-2504.08110-B31B1B.svg?labelColor=white&style=plastic)](https://arxiv.org/abs/2409.20469)
 ![PoseAdapt Teaser](teaser.png)
 </div>
 
-> __Abstract__: Human pose estimators are typically retrained from scratch or naively fine-tuned whenever keypoint sets, sensing modalities, or deployment domains change--an inefficient, compute-intensive practice that rarely matches field constraints. We present PoseAdapt, an open-source framework and benchmark suite for continual pose model adaptation. PoseAdapt defines domain-incremental and class-incremental tracks that simulate realistic changes in density, lighting, and sensing modality, as well as skeleton growth. The toolkit supports two workflows: (i) Strategy Benchmarking, which lets researchers implement continual learning (CL) methods as plugins and evaluate them under standardized protocols; and (ii) Model Adaptation, which allows practitioners to adapt strong pretrained models to new tasks with minimal supervision. We evaluate representative regularization-based methods in single-step and sequential settings. Benchmarks enforce a fixed lightweight backbone, no access to past data, and tight per-step budgets. This isolates adaptation strategy effects, highlighting the difficulty of maintaining accuracy under strict resource limits. PoseAdapt connects modern CL techniques with practical pose estimation needs, enabling adaptable models that improve over time without repeated full retraining.
+Official repository for WACV 2026 paper: [PoseAdapt: Sustainable Human Pose Estimation via Continual Learning Benchmarks and Toolkit](https://arxiv.org/abs/2409.20469) by Muhammad Saif Ullah Khan and Didier Stricker.
+
+> __Abstract__: Human pose estimators are typically retrained from scratch or naively fine-tuned whenever keypoint sets, sensing modalities, or deployment domains change—an inefficient, compute-intensive practice that rarely matches field constraints. We present PoseAdapt, an open-source framework and benchmark suite for continual pose model adaptation. PoseAdapt defines domain-incremental and class-incremental tracks that simulate realistic changes in density, lighting, and sensing modality, as well as skeleton growth. The toolkit supports two workflows: (i) Strategy Benchmarking, which lets researchers implement continual learning (CL) methods as plugins and evaluate them under standardized protocols; and (ii) Model Adaptation, which allows practitioners to adapt strong pretrained models to new tasks with minimal supervision. We evaluate representative regularization-based methods in single-step and sequential settings. Benchmarks enforce a fixed lightweight backbone, no access to past data, and tight per-step budgets. This isolates adaptation strategy effects, highlighting the difficulty of maintaining accuracy under strict resource limits. PoseAdapt connects modern CL techniques with practical pose estimation needs, enabling adaptable models that improve over time without repeated full retraining.
 
 ## Overview
 
@@ -41,7 +43,7 @@ If you use PoseAdapt in your research, please cite the following paper:
 
 ```bibtex
 @inproceedings{khan2026poseadapt,
-  title={PoseAdapt: Toolkit for Continual Adaptation of Human Pose Estimation Models},
+  title={PoseAdapt: Sustainable Human Pose Estimation via Continual Learning Benchmarks and Toolkit},
   author={Muhammad Saif Ullah Khan and Didier Stricker},
   booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
   year={2026}
