@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
-# Author: Saif Khan (c) 2025
+# Copyright (c) 2025 DFKI GmbH. All rights reserved.
 
 import math
 from typing import Iterator, Optional, Sized
