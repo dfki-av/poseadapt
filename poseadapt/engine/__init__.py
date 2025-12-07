@@ -3,10 +3,12 @@
 
 from .core import ContinualLearningRunner
 from .plugins import BasePlugin, DefaultEvolutionPlugin, load_evolution_state_dict
+from .samplers import SubsetSampler
 
 __all__ = [
     "ContinualLearningRunner",
     "BasePlugin",
     "DefaultEvolutionPlugin",
+    "SubsetSampler",
     "load_evolution_state_dict",
 ]
